@@ -1,0 +1,122 @@
+/* Reset CSS*/
+*{
+	margin: 0;
+	padding: 0;
+}
+
+/*Pour la page occupe 100% de la hauteur de la page*/
+html{
+	width: 100%;
+	height: auto;
+}
+
+body {
+  	min-height: 100%;
+  	background-image:url("TestFondRond.jpg");
+  	background-size: 100%;
+  	background-repeat: no-repeat;
+
+}
+
+/*Logo*/
+img{
+	/*Centrer l'image*/
+	display : block;
+	margin-left: auto;
+    margin-right: auto;
+    height: 27%;
+    width : 27%;
+    margin-top: 5%;
+}
+/*Corps de la page*/
+main{
+	/*background-image: url("HeptaFond.png"); /*Image de fond*/
+	background-position: bottom; /*Pour garder le bas de la photo de Laurence*/
+	width: 100%; /*Pour occuper la largeur de la page*/
+	position: absolute; /*Pour coller la page en bas*/
+	bottom: 0;
+	margin-top: 150px;
+}
+
+h1{
+	font-family: 'Philosopher', sans-serif;
+	font-style: italic;
+	font-size: 4rem;
+	color: #FFF;
+	text-align : center;
+}
+
+h2{
+	font-family: 'Philosopher', sans-serif;
+	font-size: 2rem;
+	color: #FFF;
+	text-align: center;
+	word-spacing: 50px;
+	margin-top: 20px;
+}
+
+span{
+	color:#F0F; /*couleur rose*/
+}
+
+.button{ /*Conteneur pour centrer les boutons dans la page*/
+	text-align : center;
+}
+
+button{
+	font-family: 'Philosopher', sans-serif;
+	font-size: 1.5em;
+	font-style: bold;
+	color: #FFF;
+	width: 10em;
+	cursor: pointer;
+	text-transform: capitalize;
+	/*background-image:url("TestFondRond.jpg");
+	background-position: bottom;*/
+	background-color: rgba(255,255,255,0);
+	border: none;
+	padding: 6px 6px 6px 6px;
+	margin: 70px;
+	border-bottom: 1px solid #F0F;
+	outline: 0;
+}
+
+button:hover{
+	border: none;
+	color: #F0F;
+	outline: 0;	
+}
+
+a:link{
+	text-decoration: none;
+}
+
+@media screen and (max-width: 720px) {
+	#fond-blanc{
+		text-align: center;
+        display: table-cell;
+        vertical-align: middle;
+	}
+
+	img{
+		width: 300px;
+	}
+
+	main{
+		position: absolute;
+		bottom:0;
+	}
+	h1{
+		font-size: 40px;
+	}
+
+	h2{
+		font-size: 30px;
+		word-spacing: 20px;
+	}
+
+	button{
+		font-size: 20px;
+		width: 5em;
+		padding: 6px 6px 6px 6px;
+}

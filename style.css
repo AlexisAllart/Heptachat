@@ -1,0 +1,367 @@
+html
+{
+	overflow-y:hidden;
+}
+
+.all
+{
+	font-family:'Dosis', sans-serif;
+	display:flex;
+	margin-left:auto;
+	margin-right:auto;
+	max-height:1080px;
+	max-width:1960px;
+	height:100%;
+}
+
+.refresh
+{
+	display:flex;
+	margin:16px auto;
+}
+
+.refresh:hover
+{
+	filter:hue-rotate(120deg) saturate(200%) brightness(60%);
+}
+
+.refresh:focus
+{
+	outline:none;
+}
+
+.chat
+{
+	display:flex;
+	flex-flow:column;
+	margin:16px auto;
+	width:95%;
+	overflow-y:scroll;
+	overflow-x:hidden;
+    min-height:500px;
+	max-height:500px;
+	padding:8px;
+	scrollbar-width:none;		/* Firefox */
+    -ms-overflow-style:none;	/* IE 10+ */
+}
+
+.chat::-webkit-scrollbar		/* WebKit */
+{
+    width: 0;
+    height: 0;
+}
+
+.textinput
+{
+	display:flex;
+	margin:36px auto 0px auto;	
+	width:320px;
+	border:solid 1px lightgrey;
+}
+
+.textinput:focus
+{
+	outline:none;
+	border:1px solid #3a89e5;
+}
+
+.textinput:focus::placeholder
+{
+	color:#3a89e5;
+}
+
+.sendbtn
+{
+	display:flex;
+	margin:16px auto;
+}
+
+.sendbtn:hover
+{
+	filter:hue-rotate(120deg) saturate(200%) brightness(60%);
+}
+
+.sendbtn:focus
+{
+	outline:none;
+}
+
+.cols
+{
+	display:flex;
+	justify-content:space-around;
+	width:100%;
+}
+
+.leftbg
+{
+	display:flex;
+	flex-flow:column;
+	background-image:url(FondGauche.png);
+	background-position:right;
+	width:25%;
+}
+
+.leftcol
+{
+	display:flex;
+	flex-flow:column;
+	width:100%;
+	justify-content:center;
+}
+
+.profilpic
+{
+	height:128px;
+	width:128px;
+	margin-left:auto;
+	margin-right:auto;
+	margin-top:8px;
+	border-radius:0px 25px 25px 25px;
+}
+
+.profilimg
+{
+	height:128px;
+	width:128px;
+	border-radius:0px 25px 25px 25px;
+}
+
+.profilpic:hover
+{
+	filter:grayscale(100%);
+}
+
+.profilpic2
+{
+	height:128px;
+	width:128px;
+	margin-left:auto;
+	margin-right:auto;
+	margin-top:8px;
+	border-radius:0px 25px 25px 25px;
+	filter:grayscale(100%);
+}
+
+.profilpic2:hover
+{
+	filter:grayscale(0%);
+}
+
+.profilimg:focus
+{
+	outline:none;
+}
+
+.rightbg
+{
+	display:flex;
+	background-image:url(FondDroit.png);
+	background-position:left;
+	justify-content:center;
+	width:25%;
+}
+
+.rightcol
+{
+	width:100%;
+}
+
+.leftbtn
+{
+	padding:32px;
+	border-bottom:2px solid;
+	border-color:rgba(155,155,155,0.5);
+	margin:16px;
+}
+
+.rightbtn
+{
+	padding:32px;
+	border-bottom:2px solid;
+	border-color:rgba(155,155,155,0.5);
+	margin:16px;
+}
+
+.diffname
+{
+	color:#ff3972;
+	margin:8px;
+}
+
+.samename
+{
+	color:#3a89e5;
+	margin:8px;
+}
+
+.rightall
+{
+	text-align:right;
+	border-right:4px solid #ff3972;
+	padding:8px;
+}
+
+.leftall
+{
+	text-align:left;
+	border-left:4px solid #3a89e5;
+	padding:8px;
+}
+
+.timechat
+{
+	font-size:75%;
+}
+
+.pseudo
+{
+	display:flex;
+	margin:16px auto;
+}
+
+body
+{
+	margin:0;
+	height:1080px;
+}
+
+.middle
+{
+	display:flex;
+	flex-flow:column;
+	justify-content:flex-start;
+	background-color:white;
+	width:50%;
+	min-width:360px;
+}
+
+.linkprofil
+{
+	display:flex;
+	flex-flow:column;
+	text-align:center;
+	justify-content:center;
+	margin-top:64px;
+	margin-bottom:64px;
+}
+
+.txtprofil
+{
+	margin:16px 64px;
+	color:white;
+	text-decoration:none;
+	border-bottom: 2px solid #ff3972;
+	font-size:150%;
+}
+
+.txtprofil:hover
+{
+	color:lightblue;
+}
+
+.profilbtn
+{
+	display:flex;
+	margin:auto;
+}
+
+.contactbtn
+{
+	display:flex;
+	margin:auto;
+}
+
+.contactlist
+{
+	display:flex;
+}
+
+.contactline
+{
+	display:flex;
+	flex-flow:column;
+	min-height: -webkit-min-content;
+	margin:0;
+}
+
+.userline
+{
+	display:flex;
+	flex-flow:row;
+	justify-content:left;
+	margin:8px 16px;
+}
+
+.userpic
+{
+	height:64px;
+	width:64px;
+	margin-left:16px;
+	border-radius:100%;
+}
+
+.userlist
+{
+	margin:auto 8px;
+	color:white;
+}
+
+.chatpic
+{
+	height:32px;
+	width:32px;
+	border-radius:100%;
+}
+
+.userpicnameleft
+{
+	display:flex;
+	justify-content:left;
+}
+
+.userpicnameright
+{
+	display:flex;
+	justify-content:right;
+	flex-flow:row-reverse;
+}
+
+.username
+{
+	text-align:center;
+	color:white;
+	margin-top:58px;
+	font-size:150%;
+	font-weight:bold;
+}
+
+.buttons
+{
+	display:flex;
+	flex-flow:row;
+	margin:auto;
+	width:360px;
+}
+
+.uploadblock
+{
+	display:flex;
+	margin:auto;
+}
+
+.uploader
+{
+	display:flex;
+	margin:64px auto;
+}
+
+.uploader:hover
+{
+	filter:hue-rotate(120deg) saturate(200%) brightness(60%);
+}
+
+.uploader:focus
+{
+	outline:none;
+}

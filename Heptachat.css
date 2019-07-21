@@ -1,0 +1,102 @@
+body{	
+	margin: 0;
+	padding: 0;
+	color:black;
+	font-size: 16px;
+	font-family: 'Dosis', sans-serif;
+	font-weight: 300;
+
+}
+
+#login-box {
+	position: relative;
+	margin: 5% auto;
+	margin-top: 2%;
+	width: 600px;	
+	background: #fff;
+}
+
+.lign{
+		margin-bottom: 20px;
+		padding: 4px;
+		width: 400px;
+		height:32px;
+		border: none;
+		outline: none;
+		border-bottom: 1px solid #aaa;
+		font-family: sans-serif;
+		font-weight: 400;
+		font-size: 15px;
+		transition: 0.2s ease;
+}
+
+h1{
+		display: flex;
+		flex-wrap: wrap;
+		justify-content: center;
+		font-family: 'Dosis', sans-serif;
+		text-align: justify;
+		margin-left: auto;
+		margin-right: auto;
+		color: #ff3972;
+		border-top: 1px solid #3a89e5;
+		padding: 1rem;
+	
+}
+
+  input[type="text"],
+  input[type="password"]
+{
+		display: flex;
+		flex-wrap: wrap;
+		justify-content: center;
+		text-align: justify;
+		margin-left: auto;
+		margin-right: auto;
+
+	    box-sizing: border-box;
+		margin-bottom: 20px;
+		padding: 4px;
+		width: 400px;
+		height:32px;
+		border: none;
+		outline: none;
+		border-bottom: 1px solid #3a89e5;
+		font-family: 'Dosis', sans-serif;
+		font-weight: 400;
+		font-size: 15px;
+		color:#3a89e5;
+		transition: 0.2s ease;
+
+}		
+
+.image
+{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+        padding-top: 5%;
+        text-align: justify;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: auto;
+}
+
+#logo
+{
+		display: flex;
+		flex-wrap: wrap;
+		justify-content: center;
+		text-align: justify;
+		margin-left: auto;
+		margin-right: auto;
+		width: 48%;
+		height: auto;
+
+}
+
+
+
+
+
+
